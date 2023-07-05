@@ -16,9 +16,9 @@
 - [📝 License](#license)
 
 
-# 📖 [Hello-Microverse] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-**[Hello-Microverse]** is a beginning to a long interesting journey i'm about to take with Microverse.
+**[Portfolio]** is a beginning to a long interesting journey i'm about to take with Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,7 +57,7 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder: 
+Clone this repository to your desired folder: https://github.com/denigit5/Portfolio.git
 
 
 
