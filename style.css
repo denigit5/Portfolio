@@ -102,14 +102,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  column-gap: 5px;
+  gap: 15px;
   list-style: none;
 }
 
 .container1 {
   background: white;
   border-radius: 16px;
-  margin-top: 12%;
+  margin-top: 13%;
   margin-left: -10%;
   width: 100%;
   height: 550px;
@@ -129,7 +129,6 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 5%;
-  margin-left: -7%;
 }
 
 .works-heading {
@@ -140,8 +139,8 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: rgba(23, 43, 77, 1);
-  margin-left: -6%;
-  padding-top: 2%;
+  margin-left: 6%;
+  margin-bottom: -0.2rem;
   width: 60%;
 }
 
@@ -154,20 +153,20 @@ body {
   height: 76px;
   width: 85%;
   top: 92px;
-  margin-left: -5%;
+  margin-left: 6%;
   color: rgba(52, 69, 99, 1);
 }
 
 .canopy {
-  margin-left: -5%;
+  margin-left: 6%;
   margin-bottom: -1rem;
 }
 
 .languages {
   display: flex;
   gap: 1rem;
-  margin-top: 10px;
-  margin-left: -3px;
+  margin-top: -8.5rem;
+  margin-left: -5.5rem;
 }
 
 .languages li {
@@ -184,8 +183,8 @@ body {
 }
 
 button {
-  margin-left: -5%;
-  margin-top: 7%;
+  margin-left: -13rem;
+  margin-top: -7rem;
   background-color: #fcfbfe;
   padding: 10px;
   border: 1px solid rgba(57, 109, 242, 1);
@@ -207,11 +206,11 @@ button:hover {
   border-top-right-radius: 40px;
   margin-left: -0.5rem;
   margin-top: 6rem;
-  position: absolute;
   height: 1263px;
 }
 
 .aboutself-heading {
+  display: flex;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -229,12 +228,12 @@ button:hover {
   letter-spacing: 0;
   color: rgba(52, 69, 99, 1);
   margin-left: 5%;
-  margin-top: -8%;
-  height: 147px;
-  max-width: 82%;
+  margin-top: -2rem;
+  width: 82%;
 }
 
 .connect2 {
+  display: flex;
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
@@ -254,6 +253,7 @@ button:hover {
 }
 
 .resume {
+  display: flex;
   margin-left: 1.5rem;
   margin-top: -1px;
   padding: 10px;
@@ -267,14 +267,14 @@ button:hover {
   line-height: 24px;
   letter-spacing: 0;
   color: rgb(18, 17, 17);
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .arrow {
-  position: absolute;
-  left: 18rem;
+  display: flex;
+  margin-left: 17rem;
   right: 25%;
-  top: 43%;
+  margin-top: -1rem;
   bottom: 37.5%;
 }
 
