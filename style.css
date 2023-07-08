@@ -262,19 +262,20 @@ button:hover {
 }
 
 .languages1 {
-  font-weight: 500;
+  font-weight: 200;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
   letter-spacing: 0;
   color: rgb(18, 17, 17);
-  padding-top: 1rem;
+  padding-top: 3rem;
+  margin-left: 2rem;
 }
 
 .arrow {
   display: flex;
-  margin-left: 17rem;
+  margin-left: 16rem;
   right: 25%;
-  margin-top: -1rem;
+  margin-top: -2rem;
   bottom: 37.5%;
 }
 
