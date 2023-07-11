@@ -96,6 +96,10 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project don't hasitate to contact me or use the features present.
 
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
