@@ -178,6 +178,11 @@ body {
   color: rgba(96, 112, 255, 1);
 }
 
+.flex li {
+  width: 90%;
+  margin: auto;
+}
+
 .languages li:nth-child(1) {
   margin-left: -3.4rem;
 }
@@ -359,23 +364,24 @@ button:hover {
 }
 
 .footer {
-  background-image: url(images/files/Contact\ me.jpg);
+  background-color: #6070ff;
   background-repeat: no-repeat;
-  width: 373px;
-  padding-left: 2px;
-  height: 779px;
+  width: 100%;
+  height: 819px;
+  margin-top: -8rem;
+  margin-left: -2%;
+  padding-right: 10px;
   border-top-left-radius: 70px;
 }
 
 .footer-container {
-  background-image: url(images/files/footer\ shapes.png);
+  background-image: url(Assets/files/footer\ shapes.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
 }
 
 .footer-heading {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -386,16 +392,16 @@ button:hover {
 }
 
 .footer-paragraph {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
   color: rgba(235, 235, 255, 1);
-  width: 327px;
+  width: 80%;
   height: 137px;
   margin: auto;
+  margin-top: -1rem;
 }
 
 .flex {
@@ -408,11 +414,6 @@ button:hover {
   list-style: none;
 }
 
-.flex li {
-  width: 90%;
-  margin: auto;
-}
-
 .navbar-links li:first-child {
   margin-top: 6rem;
 }
@@ -420,7 +421,6 @@ button:hover {
 input[type="text"],
 input[type="email"] {
   box-sizing: border-box;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: rgba(23, 43, 77, 1);
   border-radius: 8px;
@@ -436,7 +436,6 @@ input[type="email"] {
 
 textarea {
   box-sizing: border-box;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: rgba(23, 43, 77, 1);
   border-radius: 8px;
   width: 100%;
@@ -446,9 +445,12 @@ textarea {
   background: #fff;
 }
 
-button {
+#submit {
   padding: 8px 12px;
+  margin-top: 0.1rem;
+  margin-right: -11%;
   border: 1px solid #cfd8dc;
+  background-color: #fff;
   border-radius: 8px;
   line-height: 24px;
   font-weight: 500;
@@ -458,7 +460,7 @@ button {
   opacity: 0.9;
 }
 
-button:hover {
+#submit:hover {
   background-color: #6070ff;
   color: #fff;
 }
@@ -470,5 +472,4 @@ button:hover {
   background-color: #0e0f0f;
   border-radius: 10px;
   margin-left: 33%;
-  margin-bottom: 1%;
 }
