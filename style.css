@@ -357,3 +357,118 @@ button:hover {
   margin-left: -5%;
   background-color: #dfe1e6;
 }
+
+.footer {
+  background-image: url(images/files/Contact\ me.jpg);
+  background-repeat: no-repeat;
+  width: 373px;
+  padding-left: 2px;
+  height: 779px;
+  border-top-left-radius: 70px;
+}
+
+.footer-container {
+  background-image: url(images/files/footer\ shapes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.footer-heading {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 32%;
+}
+
+.footer-paragraph {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: rgba(235, 235, 255, 1);
+  width: 327px;
+  height: 137px;
+  margin: auto;
+}
+
+.flex {
+  margin-top: 2rem;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.flex li {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar-links li:first-child {
+  margin-top: 6rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgba(23, 43, 77, 1);
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px 12px;
+  height: 48px;
+  outline: none;
+  font-size: 17px;
+  line-height: 20px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+}
+
+textarea {
+  box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  color: rgba(23, 43, 77, 1);
+  border-radius: 8px;
+  width: 100%;
+  height: 170px;
+  outline: none;
+  padding: 5px;
+  background: #fff;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  color: rgba(96, 112, 255, 1);
+  opacity: 0.9;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btmline {
+  height: 3px;
+  width: 33%;
+  margin-top: 6%;
+  background-color: #0e0f0f;
+  border-radius: 10px;
+  margin-left: 33%;
+  margin-bottom: 1%;
+}
