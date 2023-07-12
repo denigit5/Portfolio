@@ -99,7 +99,6 @@
                 <li><a href="#" class="icon"><img src="Assets/files/assets/medium.png" alt="Loading"></a></li>
             </ul>
         <button class="resume">Get my resume</button>
-
         <li class="languages1">
             <h3>Languages</h3>
             <div class="arrow"><img src="Assets/files/arrow.png" alt=""></div>
@@ -114,8 +113,7 @@
                 <label class="frameworks">Frameworks</label>
                 <img class="arrow1" src="Assets/files/DisabledArrow.png">
                 <div class="divider"></div>
-              </li>
-              
+              </li>            
               <li class="works">
                 <label class="skills">Skills</label>
                 <img class="arrow2" src="Assets/files/DisabledArrow.png">
@@ -123,21 +121,29 @@
               </li>
         </ul> 
     </section>
-    <section id="contact-container">
-        <div id="contact-form">
-        <div class="contact-text">
-            <h2>Contact me</h2>
-            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-                I’d love to help with it!
-            </p>
-        </div>
-        <form action="https://formspree.io/f/xwkjnggk" method="post" class="input">
-            <input type="text" name="name" placeholder="Lorem Ipsum" maxlength="30" />
-            <input type="email" name="email" placeholder="loremipsum@gmail.com" />
-            <textarea name="message" id="message" placeholder="Write your message here..." maxlength="500"></textarea>
-            <button type="submit">Get in touch</button>
-        </form>
-    </div>
-    </section>
+    <footer id="Contact-section" class="footer">
+        <section class="footer-container">
+            <h2 id="footer-head" class="footer-heading">Contact me</h2>
+            <p class="footer-paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
+            <form id="form" action="https://formspree.io/f/xwkjzpov" method="POST">
+               <ul class="flex">
+                <li>
+                    <label for="name">
+                        <input id="name" type="text" maxlength="30" placeholder="Lorem ipsum" required>
+                    </label>
+                </li>
+                <li>
+                    <label for="email">
+                        <input id="email" type="email" placeholder="loremipsum@gmail.com" required>
+                    </label>
+                </li>
+                <li>
+                    <textarea name="text" id="text" cols="30" rows="10" maxlength="500" placeholder="write your message here..." required></textarea>
+                </li>
+                <button type="submit" id="submit"  class="submitform">Get in touch</button>
+               </ul>
+            </form>
+        </section>
+    </footer>  
 </body>
 </html>
