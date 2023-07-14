@@ -4,7 +4,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -28,14 +27,14 @@
 <details>
   <summary>HTML</summary>
   <ul>
-    <li><a href="https://expressjs.com/">CSS</a></li>
+    <li><a href="https://expressjs.com/">HTML</a></li>
   </ul>
 </details>
 
 <details>
 <summary>CSS</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.postgresql.org/">CSS</a></li>
   </ul>
 </details>
 
