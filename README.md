@@ -27,14 +27,14 @@
 <details>
   <summary>HTML</summary>
   <ul>
-    <li><a href="https://expressjs.com/">HTML</a></li>
+    <li>HTML</a></li>
   </ul>
 </details>
 
 <details>
 <summary>CSS</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">CSS</a></li>
+    <li>CSS</a></li>
   </ul>
 </details>
 
