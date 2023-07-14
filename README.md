@@ -26,16 +26,10 @@
 
 <details>
   <summary>HTML</summary>
-  <ul>
-    <li>HTML</a></li>
-  </ul>
 </details>
 
 <details>
 <summary>CSS</summary>
-  <ul>
-    <li>CSS</a></li>
-  </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
