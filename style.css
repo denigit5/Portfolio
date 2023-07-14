@@ -246,11 +246,6 @@ button:hover {
   margin-left: 6%;
 }
 
-.connect2:hover {
-  background-color: #7f8cff;
-  color: #dfe1e6;
-}
-
 #social-icons {
   display: flex;
   gap: 15px;
