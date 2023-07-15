@@ -807,7 +807,12 @@ textarea {
   }
 
   .tag:hover {
-    transform: scale(1.07);
+
+
+
+    transform: scale(1.2 1.4);
+    transform-origin: left;
+
   }
 
   .divider {
