@@ -497,9 +497,10 @@ textarea {
 }
 
 #submit {
+  display: flex;
   padding: 8px 12px;
   margin-top: 0.1rem;
-  margin-right: -11%;
+  margin-left: -50%;
   border: 1px solid #cfd8dc;
   background-color: #fff;
   border-radius: 8px;
@@ -673,6 +674,10 @@ textarea {
     width: 78%;
   }
 
+  .deskpar1 {
+    margin-bottom: -0.5rem;
+  }
+
   .deskparY,
   .multi,
   .tonic {
@@ -702,13 +707,17 @@ textarea {
   }
 
   .languages-2 li:nth-child(1) {
-    width: 88px;
+    width: 40px;
+  }
+
+  .languages-2 li:nth-child(2) {
+    width: 100px;
   }
 
   .languages-2 li:nth-child(1),
   .languages-2 li:nth-child(2),
   .languages-2 li:nth-child(3) {
-    margin-right: 2rem;
+    margin-right: 0.5rem;
     padding: 2%;
   }
 
@@ -855,7 +864,7 @@ textarea {
     padding-left: 32%;
   }
 
-  .submitform {
-    justify-content: center;
+  #submit {
+    margin-left: 5%;
   }
 }
