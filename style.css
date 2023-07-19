@@ -105,6 +105,8 @@ body {
   align-items: center;
   gap: 15px;
   list-style: none;
+  margin-left: 3rem;
+  margin-right: 2rem;
 }
 
 .container1 {
@@ -125,15 +127,24 @@ body {
   margin-left: -10%;
 }
 
+.containerx {
+  height: 620px;
+}
+
+.containery {
+  height: 640px;
+}
+
 .works-pic {
   width: auto;
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  margin-right: 15%;
 }
 
-.card1,
-.card2 {
+.responsive-image1,
+.responsive-image2 {
   display: none;
 }
 
@@ -153,7 +164,10 @@ body {
   display: none;
 }
 
-.works-heading {
+.works-heading,
+.facebook,
+.deskheading2,
+.uberheading {
   justify-content: center;
   font-size: 32px;
   font-weight: 700;
@@ -161,9 +175,15 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: rgba(23, 43, 77, 1);
-  margin-left: 6%;
+  margin-left: -6%;
   margin-bottom: -0.2rem;
   width: 60%;
+}
+
+.facebook,
+.uberheading {
+  margin-left: -50rem;
+  margin-bottom: -5rem;
 }
 
 .works-paragraph {
@@ -175,29 +195,22 @@ body {
   height: 76px;
   width: 85%;
   top: 92px;
-  margin-left: 6%;
+  margin-left: -6%;
   color: rgba(52, 69, 99, 1);
 }
 
 .canopy {
   display: flex;
-  margin-left: 6%;
-  margin-bottom: -1rem;
+  margin-left: -6%;
 }
 
 .canopyX10 {
   display: none;
 }
 
-.facebook {
-  display: none;
-}
-
 .languages {
   display: flex;
   gap: 1rem;
-  margin-top: -8.5rem;
-  margin-left: -5.5rem;
 }
 
 .languages li {
@@ -223,8 +236,8 @@ body {
 }
 
 button {
-  margin-left: -13rem;
-  margin-top: -7rem;
+  margin-left: -0.8rem;
+  margin-top: 1.5rem;
   background-color: #fcfbfe;
   padding: 10px;
   border: 1px solid rgba(57, 109, 242, 1);
@@ -239,6 +252,10 @@ button {
 button:hover {
   background-color: #7f8cff;
   color: #dfe1e6;
+}
+
+.project-33 {
+  margin-top: 2rem;
 }
 
 #about-self {
@@ -467,12 +484,13 @@ input[type="email"] {
 
 textarea {
   box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: rgba(23, 43, 77, 1);
   border-radius: 8px;
   width: 100%;
   height: 170px;
   outline: none;
-  padding: 5px;
+  padding: 3%;
   background: #fff;
 }
 
@@ -556,145 +574,106 @@ textarea {
   }
 
   #works {
-    margin-left: 8%;
-    margin-top: -5rem;
+    margin-left: 10%;
+    margin-top: 5rem;
     padding-bottom: 5rem;
   }
 
-  #works li {
-    margin-bottom: -2rem;
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -0.1px;
+    margin-top: 1rem;
+  }
+
+  .container3 {
+    margin-top: 10rem;
+  }
+
+  .containery {
+    height: 710px;
+  }
+
+  .languages li {
+    padding: 2%;
+  }
+
+  .container2 li:nth-child(1),
+  .container2 li:nth-child(2) {
+    object-fit: contain;
+    max-width: 100%;
+    width: 50%;
   }
 
   .works-pic {
     display: none;
   }
 
-  .ruby {
+  .responsive-image1 {
     display: flex;
+    justify-content: center;
+    height: auto;
   }
 
-  .container1 {
+  .responsive-image2 {
     display: flex;
-    flex-direction: row;
-  }
-
-  .container2 {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 11rem;
-  }
-
-  .container3 {
-    margin-top: 12rem;
-  }
-
-  .card1 {
-    display: flex;
-    margin-left: 2%;
-    height: 88%;
-    margin-top: 3%;
-    z-index: 8;
-  }
-
-  .card2 {
-    display: flex;
-    margin-right: 2%;
-    position: absolute;
-    margin-top: 5%;
-    z-index: 8;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-right: 2rem;
+    margin-top: 4rem;
   }
 
   .deskheading1 {
-    margin-top: 4rem;
-    margin-left: 5%;
+    margin-bottom: 1rem;
+    margin-left: 6%;
   }
 
   .deskheading2 {
-    position: absolute;
-    display: flex;
-    margin-top: 5rem;
-    margin-right: 40%;
+    margin-top: 6rem;
+    margin-bottom: -4rem;
+    margin-left: 6%;
+  }
+
+  .facebook,
+  .uberheading {
+    margin-left: 6%;
+    margin-top: 6rem;
   }
 
   .facebook {
+    margin-top: -2rem;
+  }
+
+  .canopyuber,
+  .canopy-facebook,
+  .canopyX10 {
     display: flex;
-    margin-top: 4rem;
-    margin-left: -14.5%;
-  }
-
-  .canopy {
-    display: flex;
-    height: 40px;
-    padding-top: 1rem;
-    margin-left: -27%;
-  }
-
-  .canopy1 {
-    margin-top: 7rem;
-  }
-
-  .canopy2 {
-    margin-top: 1rem;
-    padding-bottom: 1rem;
+    margin-left: 6%;
+    margin-top: 6rem;
   }
 
   .canopyX {
     display: none;
   }
 
-  .canopyX1,
-  .canopyuber {
-    display: flex;
-  }
-
-  .canopyX1 {
-    height: 36px;
-    margin-top: 8.2rem;
-    margin-left: -39.2%;
-  }
-
-  .canopyX10 {
-    display: flex;
-    margin-top: 8rem;
-    margin-right: 64.5%;
-    height: 40px;
-  }
-
-  .canopy-facebook {
-    position: absolute;
-    margin-left: 47.6%;
-  }
-
-  .canopyuber {
-    margin-right: 67.8%;
-    margin-top: 8rem;
-    height: 40px;
-  }
-
-  .tonic {
-    display: none;
-  }
-
+  .canopy,
   .deskpar1 {
-    margin-top: 11.5rem;
-    margin-left: -25%;
-    margin-right: 5rem;
+    margin-left: 6%;
+    width: 78%;
   }
 
-  .deskpar4 {
-    position: absolute;
-    margin-top: 11rem;
-    margin-left: 47.5%;
-    width: 37%;
-  }
-
-  .deskpar5 {
-    margin-top: 11rem;
-    margin-right: -25%;
-    margin-left: 6rem;
-  }
-
-  .deskparY {
+  .deskparY,
+  .multi,
+  .tonic {
     display: none;
   }
 
@@ -707,44 +686,44 @@ textarea {
     line-height: 24px;
     letter-spacing: 0;
     color: rgba(52, 69, 99, 1);
+    margin-left: 6%;
+    width: 58%;
   }
 
-  .deskpar3 {
-    margin-top: 11rem;
-    margin-right: -25%;
-    margin-left: 6rem;
-  }
-
-  .languages-1 {
-    position: absolute;
-    margin-left: 0.1%;
-    margin-top: -18%;
+  .languages {
+    margin-left: 8.8%;
+    margin-top: 4rem;
   }
 
   .languages-2 {
-    position: absolute;
-    margin-left: -40%;
-    margin-top: -20%;
+    margin-right: 4rem;
   }
 
-  .project-1 {
-    margin-left: 5rem;
-    margin-top: -13%;
+  .languages-2 li:nth-child(1) {
+    width: 88px;
   }
 
-  .project-2 {
-    margin-left: -84%;
-    margin-top: -16%;
+  .languages-2 li:nth-child(1),
+  .languages-2 li:nth-child(2),
+  .languages-2 li:nth-child(3) {
+    margin-right: 2rem;
+    padding: 2%;
   }
 
+  .ruby {
+    display: flex;
+  }
+
+  .project-1,
   .project-3 {
-    margin-left: 8%;
-    margin-top: -12%;
+    margin-left: 7.8%;
+    margin-top: 3rem;
   }
 
+  .project-2,
   .project-4 {
-    margin-right: 66%;
-    margin-top: -16%;
+    margin-left: 7.8%;
+    margin-top: 3rem;
   }
 
   #about-self {
@@ -752,7 +731,7 @@ textarea {
     border-top-right-radius: 10rem;
     width: 100%;
     height: 916px;
-    margin-top: 10rem;
+    margin-top: -0.1rem;
     margin-left: 0.3rem;
   }
 
@@ -780,7 +759,7 @@ textarea {
 
   .languages1 {
     margin-left: 48%;
-    margin-top: -28%;
+    margin-top: -30%;
   }
 
   #tech {
@@ -843,7 +822,7 @@ textarea {
   }
 
   .footer-container {
-    background-image: url(images/files/footer-background-desktop.png);
+    background-image: url(Assets/files/contact\ form\ background\ shapes.svg);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -856,8 +835,16 @@ textarea {
 
   .footer-paragraph {
     height: 124px;
-    width: 540px;
+    width: 46%;
     margin-bottom: -3rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border-radius: 0%;
+    width: 100%;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
   }
 
   .flex {
@@ -867,6 +854,6 @@ textarea {
   }
 
   .submitform {
-    margin-left: 0.1%;
+    justify-content: center;
   }
 }
