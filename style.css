@@ -817,6 +817,11 @@ textarea {
     padding-right: 3.5rem;
   }
 
+  .tag:hover {
+    transform: scale(1.2 1.4);
+    transform-origin: left;
+  }
+
   .divider {
     display: flex;
     width: 488px;
