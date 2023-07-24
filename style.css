@@ -53,14 +53,13 @@ body {
 
 .home-body {
   background-image: url(Assets/files/header\ shapes.png);
-  background-repeat: no-repeat;
   background-size: 100%;
-  min-width: 60%;
+  background-repeat: no-repeat;
+  overflow: hidden;
   height: 604px;
 }
 
 .heading {
-  min-width: 300px;
   color: #172b4d;
   font-style: normal;
   font-weight: 700;
@@ -105,6 +104,8 @@ body {
   align-items: center;
   gap: 15px;
   list-style: none;
+  margin-left: 3rem;
+  margin-right: 2rem;
 }
 
 .container1 {
@@ -125,15 +126,24 @@ body {
   margin-left: -10%;
 }
 
+.containerx {
+  height: 620px;
+}
+
+.containery {
+  height: 640px;
+}
+
 .works-pic {
-  width: 100%;
+  width: auto;
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  margin-right: 15%;
 }
 
-.card1,
-.card2 {
+.responsive-image1,
+.responsive-image2 {
   display: none;
 }
 
@@ -144,7 +154,6 @@ body {
 }
 
 .canopyX,
-.canopyX1,
 .canopyuber {
   display: none;
 }
@@ -153,7 +162,10 @@ body {
   display: none;
 }
 
-.works-heading {
+.works-heading,
+.facebook,
+.deskheading2,
+.uberheading {
   justify-content: center;
   font-size: 32px;
   font-weight: 700;
@@ -161,9 +173,15 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: rgba(23, 43, 77, 1);
-  margin-left: 6%;
+  margin-left: -6%;
   margin-bottom: -0.2rem;
   width: 60%;
+}
+
+.facebook,
+.uberheading {
+  margin-left: -50rem;
+  margin-bottom: -5rem;
 }
 
 .works-paragraph {
@@ -175,29 +193,37 @@ body {
   height: 76px;
   width: 85%;
   top: 92px;
-  margin-left: 6%;
+  margin-left: -6%;
   color: rgba(52, 69, 99, 1);
 }
 
 .canopy {
   display: flex;
-  margin-left: 6%;
-  margin-bottom: -1rem;
+  margin-left: -5.5%;
+  color: #344563;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.canop {
+  font-weight: 600;
+}
+
+.circle {
+  color: #c1c7d0;
+  font-size: 10px;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .canopyX10 {
   display: none;
 }
 
-.facebook {
-  display: none;
-}
-
 .languages {
   display: flex;
   gap: 1rem;
-  margin-top: -8.5rem;
-  margin-left: -5.5rem;
 }
 
 .languages li {
@@ -223,12 +249,12 @@ body {
 }
 
 button {
-  margin-left: -13rem;
-  margin-top: -7rem;
+  margin-left: -0.8rem;
+  margin-top: 1.5rem;
   background-color: #fcfbfe;
   padding: 10px;
   border: 1px solid rgba(57, 109, 242, 1);
-  border-radius: 16px;
+  border-radius: 8px;
   color: rgb(86, 135, 235);
   font-size: 17px;
   font-weight: 500;
@@ -239,6 +265,10 @@ button {
 button:hover {
   background-color: #7f8cff;
   color: #dfe1e6;
+}
+
+.project-33 {
+  margin-top: 2rem;
 }
 
 #about-self {
@@ -289,9 +319,9 @@ button:hover {
 
 .resume {
   display: flex;
-  margin-left: 1.5rem;
+  margin-left: 6%;
   margin-top: -1px;
-  padding: 10px;
+  padding-bottom: 2.5%;
   height: 40px;
   border-radius: 8px;
 }
@@ -308,9 +338,8 @@ button:hover {
 
 .arrow {
   display: flex;
-  margin-left: 16rem;
-  right: 25%;
-  margin-top: -2rem;
+  margin-left: 75%;
+  margin-top: -2.5rem;
   bottom: 37.5%;
 }
 
@@ -320,7 +349,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  width: 303px;
+  width: 95%;
   height: 66.72px;
   background-image: url(Assets/files/Ellipse\ 2.jpg.png);
   background-position: 2%;
@@ -367,7 +396,8 @@ button:hover {
 }
 
 .arrow1 {
-  padding-left: 8.5rem;
+  display: flex;
+  margin-left: 75%;
 }
 
 .skills {
@@ -382,12 +412,13 @@ button:hover {
 }
 
 .arrow2 {
-  padding-left: 13rem;
+  display: flex;
+  margin-left: 75%;
 }
 
 .divider {
   height: 1px;
-  width: 327px;
+  width: 80%;
   margin-top: 7%;
   margin-left: -5%;
   background-color: #dfe1e6;
@@ -397,7 +428,7 @@ button:hover {
   background-color: #6070ff;
   background-repeat: no-repeat;
   width: 100%;
-  height: 819px;
+  height: 100%;
   margin-top: -8rem;
   margin-left: -2%;
   padding-right: 10px;
@@ -466,22 +497,23 @@ input[type="email"] {
 
 textarea {
   box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: rgba(23, 43, 77, 1);
   border-radius: 8px;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   width: 100%;
   height: 170px;
   outline: none;
-  padding: 0.7rem;
+  padding: 3%;
   background: #fff;
 }
 
 #submit {
+  display: flex;
   padding: 8px 12px;
   margin-top: 0.1rem;
-  margin-right: -11%;
+  margin-left: -50%;
   border: 1px solid #cfd8dc;
   background-color: #fff;
   border-radius: 8px;
@@ -498,12 +530,6 @@ textarea {
 }
 
 @media (min-width: 768px) {
-  body {
-    min-width: 768px;
-    margin: 0;
-    list-style: none;
-  }
-
   .home-body {
     background-image: url(Assets/files/head\ shapes-desktop.png);
     background-size: contain;
@@ -515,7 +541,7 @@ textarea {
 
   .mylogo {
     position: absolute;
-    margin-left: 6rem;
+    margin-left: 12%;
     margin-top: -1rem;
   }
 
@@ -525,7 +551,7 @@ textarea {
 
   .navbar-links2 {
     display: flex;
-    margin-right: 3rem;
+    margin-right: 6rem;
     margin-top: -1rem;
   }
 
@@ -546,7 +572,7 @@ textarea {
   }
 
   .heading {
-    width: 31%;
+    width: 32%;
     margin-left: 18%;
   }
 
@@ -564,46 +590,45 @@ textarea {
   }
 
   #works {
-    margin-left: 8%;
-    margin-top: -5rem;
+    margin-left: 10%;
+    margin-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  #works li {
-    margin-bottom: -2rem;
-  }
-
-  .works-pic {
-    display: none;
-  }
-
-  .ruby {
-    display: flex;
   }
 
   .container1 {
     display: flex;
     flex-direction: row;
+    height: 496px;
+    overflow: hidden;
+    margin-top: 1rem;
+    align-items: center;
   }
 
   .container2 {
     display: flex;
-    flex-direction: column;
-    margin-top: 11rem;
-  }
-
-  .container22 {
-    flex-direction: row;
+    flex-direction: row-reverse;
+    margin-top: -0.1px;
+    margin-top: 1rem;
+    height: 496px;
   }
 
   .container3 {
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
 
-  .card1 {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem;
+  .languages li {
+    padding: 2%;
+  }
+
+  .container2 li:nth-child(1),
+  .container2 li:nth-child(2) {
+    max-width: 100%;
+    width: 50%;
+    overflow: hidden;
+  }
+
+  .works-pic {
+    display: none;
   }
 
   .card1:hover {
@@ -620,90 +645,85 @@ textarea {
     transform: scale(0.8, 0.8);
   }
 
-  .deskheading1 {
-    margin-top: 4rem;
-    margin-left: 1rem;
+  .responsive-image1 {
+    display: flex;
+    justify-content: center;
+    height: auto;
   }
 
-  .facebook {
+  .responsive-image2 {
     display: flex;
-    margin-top: 4rem;
-    justify-content: center;
-    margin-left: -14rem;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .deskheading1 {
+    margin-bottom: 1rem;
+    margin-left: 6%;
   }
 
   .deskheading2 {
-    margin-top: -26rem;
+    margin-top: 6rem;
+    margin-bottom: -5rem;
+    margin-left: 6%;
   }
 
-  .canopy {
-    height: 40px;
-    padding-top: 1rem;
+  .facebook,
+  .uberheading {
+    margin-left: 6%;
+    margin-top: 6rem;
   }
 
-  .canopy1 {
-    margin-top: 7rem;
-    margin-left: -44.5rem;
+  .facebook {
+    margin-top: -2rem;
   }
 
-  .canopy2 {
-    margin-top: 1rem;
-    padding-bottom: 1rem;
+  .canopyuber,
+  .canopy-facebook,
+  .canopyX10 {
+    display: flex;
+    margin-left: 6%;
+    margin-top: 6rem;
+    font-size: 18px;
   }
 
   .canopyX {
     display: none;
   }
 
-  .canopyX1,
-  .canopyuber {
-    display: flex;
-  }
-
   .canopyX1 {
-    height: 36px;
-    margin-top: 8.2rem;
-    margin-left: -39.2%;
+    color: #253858;
   }
 
-  .canopyX10 {
+  .circle {
     display: flex;
-    margin-left: 6%;
-    margin-top: 1rem;
   }
 
-  .canopyuber {
-    margin-left: 6%;
-    margin-top: 2rem;
-    padding-bottom: 1rem;
+  .faceB,
+  .canop {
+    font-weight: 600;
   }
 
-  .tonic {
-    display: none;
+  .canopy,
+  .deskpar1 {
+    margin-left: 6%;
+    width: 78%;
+  }
+
+  .canopy {
+    font-size: 17px;
   }
 
   .deskpar1 {
-    margin-left: -18.3rem;
-    margin-top: 11.5rem;
-    width: 38%;
+    margin-bottom: -0.5rem;
   }
 
-  .deskpar2 {
-    width: 38%;
-  }
-
-  .deskpar4 {
-    width: 40%;
-    margin-top: 12.4rem;
-    margin-left: -24%;
-  }
-
-  .deskpar5 {
-    width: 40%;
-    margin-left: 6%;
-  }
-
-  .deskparY {
+  .deskparY,
+  .multi,
+  .tonic {
     display: none;
   }
 
@@ -716,53 +736,55 @@ textarea {
     line-height: 24px;
     letter-spacing: 0;
     color: rgba(52, 69, 99, 1);
-  }
-
-  .deskpar3 {
-    width: 40%;
     margin-left: 6%;
+    width: 58%;
   }
 
-  .languages-1 {
-    margin-left: 12rem;
-    margin-top: -15.5rem;
+  .languages {
+    margin-left: 8.8%;
+    margin-top: 1rem;
   }
 
   .languages-2 {
-    margin-left: -36rem;
-    margin-top: -16rem;
+    margin-right: 4rem;
   }
 
-  .languages-3 {
-    margin-left: 20rem;
-    margin-top: -13rem;
+  .languages-2 li:nth-child(1) {
+    width: 40px;
   }
 
-  .project-1 {
-    margin-left: 5rem;
-    margin-top: -10rem;
+  .languages-2 li:nth-child(2) {
+    width: 100px;
   }
 
-  .project-2 {
-    margin-right: 71%;
-    margin-top: -11rem;
+  .languages-2 li:nth-child(1),
+  .languages-2 li:nth-child(2),
+  .languages-2 li:nth-child(3) {
+    margin-right: -0.5rem;
+    padding: 2%;
   }
 
+  .ruby {
+    display: flex;
+  }
+
+  .project-1,
   .project-3 {
-    margin-left: 5rem;
+    margin-left: 7.8%;
   }
 
+  .project-2,
   .project-4 {
-    margin-right: 71%;
-    margin-top: -10em;
+    margin-left: 7%;
+    display: flex;
   }
 
   #about-self {
     background-image: url(Assets/files/about\ myself\ -\ background-\ shape-\ desktop.jpg);
     border-top-right-radius: 10rem;
-    width: 1330px;
+    width: 100%;
     height: 916px;
-    margin-top: 10rem;
+    margin-top: -0.1rem;
     margin-left: 0.3rem;
   }
 
@@ -790,7 +812,7 @@ textarea {
 
   .languages1 {
     margin-left: 48%;
-    margin-top: -28%;
+    margin-top: -30%;
   }
 
   #tech {
@@ -817,8 +839,7 @@ textarea {
   }
 
   .tag:hover {
-    transform: scale(1.2 1.4);
-    transform-origin: left;
+    transform: scale(1.07);
   }
 
   .divider {
@@ -842,7 +863,8 @@ textarea {
 
   .arrow1,
   .arrow2 {
-    margin-left: 12rem;
+    display: flex;
+    margin-left: 80%;
   }
 
   .footer {
@@ -853,7 +875,7 @@ textarea {
   }
 
   .footer-container {
-    background-image: url(images/files/footer-background-desktop.png);
+    background-image: url(Assets/files/contact\ form\ background\ shapes.svg);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -866,13 +888,25 @@ textarea {
 
   .footer-paragraph {
     height: 124px;
-    width: 540px;
+    width: 46%;
     margin-bottom: -3rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border-radius: 0%;
+    width: 100%;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
   }
 
   .flex {
     width: 35%;
     align-items: center;
     padding-left: 32%;
+  }
+
+  #submit {
+    margin-left: 5%;
   }
 }
