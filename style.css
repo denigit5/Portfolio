@@ -629,6 +629,24 @@ textarea {
 
   .works-pic {
     display: none;
+    
+  .card1:hover {
+    transform: scale(0.8, 0.8);
+  }
+
+  .card2 {
+    display: flex;
+    margin: 2rem;
+    margin-left: 38rem;
+  }
+
+  .card2:hover {
+    transform: scale(0.8, 0.8);
+  }
+
+  .deskheading1 {
+    margin-top: 4rem;
+    margin-left: 1rem;
   }
 
   .responsive-image1 {
