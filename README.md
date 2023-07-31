@@ -6,6 +6,7 @@
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -48,6 +49,10 @@ To get a local copy up and running, follow these steps.
 ### Setup
 
 Clone this repository to your desired folder: https://github.com/denigit5/Portfolio.git
+
+### Deployment
+
+Deployment for this repository: https://denigit5.github.io/Portfolio/
 
 
 

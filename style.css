@@ -869,7 +869,8 @@ textarea {
 
   .footer {
     background-color: rgba(96, 112, 255, 1);
-    min-width: 100%;
+    width: 100%;
+    margin-left: 0.3%;
     height: 846px;
     margin-top: -10rem;
     margin-left: 0.5%;
@@ -908,6 +909,6 @@ textarea {
   }
 
   #submit {
-    margin-left: 5%;
+    margin-left: 0.1%;
   }
 }
