@@ -237,7 +237,7 @@ body {
 .facebook,
 .uberheading {
   margin-left: -50rem;
-  margin-bottom: -5rem;
+  margin-bottom: -5.5rem;
 }
 
 .works-paragraph {
@@ -326,6 +326,126 @@ button:hover {
 .project-33 {
   margin-top: 2rem;
 }
+
+/* ---Popup Window-- */
+
+.popup {
+  visibility: visible;
+  position: fixed;
+  z-index: 60;
+  height: 813px;
+  padding-top: 0.5rem;
+  width: 88%;
+  left: 4.5%;
+  top: 7.6rem;
+  border-radius: 16px;
+  margin-top: -7rem;
+  align-items: center;
+  background-color: white;
+}
+
+.popup-inactive {
+  display: none;
+}
+
+.close {
+  color: #67798e;
+  font-size: 36px;
+  padding-right: 6%;
+  float: right;
+}
+
+.overlay {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #9aacc7;
+  backdrop-filter: blur(5px);
+  transition: 0.1s ease;
+  opacity: 0.5;
+}
+
+.overlay-inactive {
+  display: none;
+}
+
+.deskpop {
+  display: none;
+}
+
+.popupimg1 {
+  display: flex;
+  transform: scale(0.9);
+  margin-left: 8%;
+  margin-top: -0.8rem;
+  width: 80%;
+}
+
+.popcanopy {
+  margin-left: 7%;
+}
+
+.popheading {
+  margin-left: 7%;
+  margin-top: -0.1%;
+}
+
+.poplist {
+  margin-left: 10%;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}
+
+.poparagraph1 {
+  font-size: 15px;
+  margin-left: 7%;
+  height: 220px;
+  margin-top: -2%;
+}
+
+.poparagraph2 {
+  display: none;
+}
+
+.lang1 {
+  display: none;
+}
+
+.live-links {
+  display: flex;
+  gap: 8%;
+  margin-left: -3%;
+}
+
+.live-link1 {
+  background-image: url(Assets/files/see-live-icon.png);
+  background-position-x: 6.5rem;
+  background-position-y: 1rem;
+  background-repeat: no-repeat;
+  background-color: #f9fafc;
+  font-size: 15px;
+  color: #396df2;
+  width: 140px;
+  height: 48px;
+}
+
+.live-link2 {
+  background-image: url(Assets/files/Vector\ git\ \ popup.png);
+  background-position-x: 7.1rem;
+  background-position-y: 1rem;
+  background-repeat: no-repeat;
+  background-color: #f9fafc;
+  font-size: 15px;
+  color: #396df2;
+  width: 140px;
+  height: 48px;
+}
+
+/* ---End of Popup Window-- */
 
 #about-self {
   background-image: url(Assets/files/about\ myself\ -\ background-\ shape-\ desktop.jpg);
@@ -596,8 +716,7 @@ textarea {
   }
 
   .mylogo {
-    position: absolute;
-    margin-left: 12%;
+    margin-left: 10rem;
     margin-top: -1rem;
   }
 
@@ -751,6 +870,11 @@ textarea {
     font-size: 18px;
   }
 
+  .canopyuber,
+  .canopy-facebook {
+    margin-top: 7.5rem;
+  }
+
   .canopyX {
     display: none;
   }
@@ -839,6 +963,72 @@ textarea {
     margin-left: 7%;
     display: flex;
   }
+
+  /* --POPUP WINDOW-- */
+  .popup {
+    overflow-x: hidden;
+  }
+
+  .deskpop {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .popcanopy {
+    margin-left: -0.1px;
+    margin-left: 2.2rem;
+  }
+
+  .popheading {
+    margin-left: 6.5rem;
+    transform: scale(1.2);
+  }
+
+  .desklist {
+    display: flex;
+    margin-left: 65%;
+    margin-top: -42%;
+    transform: scale(0.9);
+  }
+
+  .poparagraph2 {
+    display: flex;
+    width: 57%;
+    height: 480px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 4.5%;
+    margin-top: 3rem;
+    color: rgba(52, 69, 99, 1);
+  }
+
+  .poparagraph1 {
+    display: none;
+  }
+
+  .lang1 {
+    display: flex;
+    margin-left: 65%;
+    margin-top: 1.5rem;
+    transform: scale(0.9);
+  }
+
+  .close1 {
+    display: flex;
+    margin-right: -2.2rem;
+  }
+
+  .live-links {
+    margin-left: 62.5%;
+    margin-top: -1rem;
+    transform: scale(0.9);
+  }
+
+  /* --END OF POPUP WINDOW-- */
 
   #about-self {
     background-image: url(Assets/files/about\ myself\ -\ background-\ shape-\ desktop.jpg);
@@ -933,6 +1123,7 @@ textarea {
     width: 100%;
     height: 846px;
     margin-top: -10rem;
+    margin-left: 0.2%;
   }
 
   .footer-container {
