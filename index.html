@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+    <script src="script.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -14,6 +15,14 @@
         <header id="header">
             <div><a href="#" class="mylogo">My logo</a></div>
             <nav>
+            <div class="navbar-links navbar-links-inactive">
+                <div class="close-button"><img src="Assets/hamburger disable.png" alt="Loading"></div>
+                <ul>
+                    <li><a href="#portfolio" class="nav-link1">Portfolio</a></li>
+                    <li><a href="#about-self" class="nav-link2">About</a></li>
+                    <li><a href="#Contact-section" class="nav-link3">Contact</a></li>
+                </ul>
+            </div>
             <div class="hamburger"><img src="Assets/files/hamburger.png" alt="loading"></div>
                     <!--Desktop navbar-links-->
             <div class="navbar-links2">
@@ -124,7 +133,7 @@
                 </li>
             </ul>
             </section>
-    <section id="about-self">
+    <section id="about-self" class="about-myself">
         <h3 class="aboutself-heading">About myself</h3>
         <p class="aboutself-paragragh">Hello I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see  and have a project you need coded, don't hesitate to contact me.</p>
         <h4 class="connect2">LET'S CONNECT</h4>
