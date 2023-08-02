@@ -709,6 +709,18 @@ textarea {
   color: #fff;
 }
 
+.failed {
+  display: flex;
+  color: white;
+  font-size: 11px;
+  padding-left: 2rem;
+  margin-top: -1rem;
+}
+
+.validate-email-disabled {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .home-body {
     background-image: url(Assets/files/head\ shapes-desktop.png);
@@ -1177,5 +1189,11 @@ textarea {
 
   #submit {
     margin-left: 0.1%;
+  }
+
+  .failed1 {
+    padding-left: 33%;
+    padding-top: 1rem;
+    font-size: 17px;
   }
 }
