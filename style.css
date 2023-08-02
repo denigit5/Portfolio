@@ -353,7 +353,10 @@ button:hover {
   display: none;
 }
 
-.close {
+.close,
+.close2,
+.close3,
+.close4 {
   color: #67798e;
   font-size: 36px;
   padding-right: 6%;
@@ -987,7 +990,6 @@ textarea {
   .deskpop {
     display: flex;
     width: 95%;
-    height: 60%;
     margin-left: 3%;
     margin-top: 1.5rem;
   }
@@ -1006,7 +1008,7 @@ textarea {
   .desklist {
     display: flex;
     margin-left: 65%;
-    margin-top: -42%;
+    margin-top: -31rem;
     transform: scale(0.9);
   }
 
