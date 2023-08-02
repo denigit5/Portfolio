@@ -174,7 +174,7 @@ body {
 }
 
 .container2 {
-  background: white;
+  background: #fff;
   height: 596px;
   width: 100%;
   border-radius: 16px;
@@ -198,8 +198,13 @@ body {
   margin-right: 15%;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 .responsive-image1,
-.responsive-image2 {
+.responsive-image2,
+.responsive-image3 {
   display: none;
 }
 
@@ -365,7 +370,6 @@ button:hover {
   width: 100%;
   background-color: #9aacc7;
   backdrop-filter: blur(5px);
-  transition: 0.1s ease;
   opacity: 0.5;
 }
 
@@ -708,8 +712,7 @@ textarea {
 @media (min-width: 768px) {
   .home-body {
     background-image: url(Assets/files/head\ shapes-desktop.png);
-    background-size: contain;
-    margin-top: 1rem;
+    background-size: 100%;
     margin-left: 5rem;
     color: rgba(255, 255, 255, 1);
     overflow: hidden;
@@ -811,6 +814,10 @@ textarea {
     display: none;
   }
 
+  .ton {
+    margin-top: -3rem;
+  }
+
   .card1:hover {
     transform: scale(0.8, 0.8);
   }
@@ -829,6 +836,7 @@ textarea {
     display: flex;
     justify-content: center;
     height: auto;
+    width: 100%;
   }
 
   .responsive-image2 {
@@ -838,6 +846,13 @@ textarea {
     height: auto;
     margin-right: 2rem;
     margin-top: 1.5rem;
+  }
+
+  .responsive-image3 {
+    display: flex;
+    width: 108%;
+    margin-right: 20rem;
+    margin-left: -1rem;
   }
 
   .deskheading1 {
@@ -971,13 +986,16 @@ textarea {
 
   .deskpop {
     display: flex;
-    margin-left: 2rem;
+    width: 95%;
+    height: 60%;
+    margin-left: 3%;
     margin-top: 1.5rem;
   }
 
   .popcanopy {
     margin-left: -0.1px;
-    margin-left: 2.2rem;
+    margin-left: 3%;
+    margin-top: 0.6rem;
   }
 
   .popheading {
@@ -1023,7 +1041,7 @@ textarea {
   }
 
   .live-links {
-    margin-left: 62.5%;
+    margin-left: 62%;
     margin-top: -1rem;
     transform: scale(0.9);
   }
