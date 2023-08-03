@@ -142,12 +142,11 @@ document.addEventListener('DOMContentLoaded', () => {
       message: messagefield.value,
     };
     localStorage.setItem('formData', JSON.stringify(formData));
+    const submitButton = document.getElementById('submit');
+    submitButton.addEventListener('click', () => {
+      form.submit();
+    });
   });
-  const formInfo = document.getElementById('form');
-  const submitButton = document.getElementById('submit ');
-  submitButton.addEventListener('click', () => {
-    formInfo.submit();
-  const form = document.querySelector('#form');
   form.addEventListener('submit', (event) => {
     const emailInput = document.querySelector('#email').value;
     const SubmitEmail = emailInput.toLowerCase();
