@@ -123,7 +123,33 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.popup4').classList.remove('popup-inactive');
     document.querySelector('.popup4').classList.add('popup4');
   });
-  const form = document.querySelector('#form');
+  // data preservation //
+  const form = document.getElementById('form');
+  const namefield = document.getElementById('name');
+  const emailfield = document.getElementById('email');
+  const messagefield = document.getElementById('text');
+  if (localStorage.getItem('formData')) {
+    const formData = JSON.parse(localStorage.getItem('formData'));
+    namefield.value = formData.name;
+    emailfield.value = formData.email;
+    messagefield.value = formData.message;
+  }
+  form.addEventListener('input', () => {
+    const formData = {
+      name: namefield.value,
+      email: emailfield.value,
+      message: messagefield.value,
+    };
+    localStorage.setItem('formData', JSON.stringify(formData));
+    const formInfo = document.getElementById('form');
+    const submitButton = document.getElementById('submit');
+    submitButton.addEventListener('click', () => {
+      formInfo.submit();
+    });
+  });
+  // End of data preservation //
+
+  // Form validation //
   form.addEventListener('submit', (event) => {
     const emailInput = document.querySelector('#email').value;
     const SubmitEmail = emailInput.toLowerCase();
@@ -137,4 +163,5 @@ document.addEventListener('DOMContentLoaded', () => {
       form.onSubmit();
     }
   });
+  // end of form validation//
 });
