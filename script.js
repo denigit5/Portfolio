@@ -147,5 +147,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const submitButton = document.getElementById('submit ');
   submitButton.addEventListener('click', () => {
     formInfo.submit();
+  const form = document.querySelector('#form');
+  form.addEventListener('submit', (event) => {
+    const emailInput = document.querySelector('#email').value;
+    const SubmitEmail = emailInput.toLowerCase();
+    if ((emailInput !== SubmitEmail)) {
+      document.querySelector('.failed').classList.add('failed');
+      document.querySelector('.failed').classList.remove('validate-email-disabled');
+      event.preventDefault();
+    } else {
+      document.querySelector('.failed').classList.add('validate-email-disabled');
+      document.querySelector('.failed').classList.remove('failed');
+      form.onSubmit();
+    }
   });
 });
