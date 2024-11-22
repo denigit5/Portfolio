@@ -6,14 +6,13 @@
 }
 
 body {
-  background-color: #e4e5e7;
+  background-color: #f5f3f3;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
   min-width: 375px;
 }
 
 .homepage {
-  background-image: url(Assets/files/header-background-mobile.jpg);
   min-width: 60%;
   height: 700px;
   border-bottom-left-radius: 10%;
@@ -21,12 +20,33 @@ body {
   margin-left: -0.5rem;
   margin-right: 0;
   overflow-x: hidden;
+  background: linear-gradient(
+      120deg,
+      rgba(255, 205, 247, 0.9),  /* Light Yellow */
+      rgba(173, 216, 230, 0.8),  /* Light Blue */
+      rgba(250, 248, 248, 0.7),  /* Light Coral */
+      rgba(22, 1, 22, 0.8)      /* Dark Base */
+    ),
+    radial-gradient(
+      circle at top left,
+      rgba(255, 182, 193, 0.6),  /* Light Pink */
+      rgba(224, 255, 255, 0.5),  /* Light Cyan */
+      rgba(245, 202, 226, 0.5)      /* Dark Base */
+    );
+  background-blend-mode: overlay, lighten;
+  background-color: #474747; /* Fallback color */
+  min-width: 60%;
+  height: 700px;
+  border-bottom-left-radius: 10%;
+  margin-top: -1rem;
+  margin-left: -0.5rem;
+  margin-right: 0;
+  overflow-x: hidden;
+  position: relative;
 }
 
 #header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: 70%;
   padding-top: 2rem;
 }
 
@@ -35,15 +55,11 @@ body {
 }
 
 .mylogo {
-  color: #6070ff;
-  width: 100%;
-  margin-left: 1.5rem;
-  align-items: center;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  overflow-x: hidden;
+  transform: scale(0.17);
+  width: 15px;
+  height: 15px;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 .hamburger {
@@ -116,7 +132,7 @@ body {
 }
 
 .heading {
-  color: #172b4d;
+  color: #1b325e;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -129,7 +145,7 @@ body {
 
 .paragraph {
   width: 80%;
-  color: #172b4d;
+  color: #2f2f31;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -139,7 +155,7 @@ body {
 }
 
 .connect {
-  color: #7f8cff;
+  color: #4959ee;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -165,7 +181,7 @@ body {
 }
 
 .container1 {
-  background: white;
+  background: #fffeff;
   border-radius: 16px;
   margin-top: 13%;
   margin-left: -10%;
@@ -174,7 +190,7 @@ body {
 }
 
 .container2 {
-  background: #fff;
+  background: #fffeff;
   height: 596px;
   width: 100%;
   border-radius: 16px;
@@ -727,15 +743,20 @@ textarea {
 @media (min-width: 768px) {
   .home-body {
     background-image: url(Assets/files/head\ shapes-desktop.png);
-    background-size: 100%;
+    background-size: 80%;
+    background-position-x: center;
     margin-left: 5rem;
     color: rgba(255, 255, 255, 1);
     overflow: hidden;
   }
 
   .mylogo {
-    margin-left: 10rem;
-    margin-top: -1rem;
+    margin-left: 4rem;
+    margin-top: -0.2rem;
+    margin-bottom: -1rem;
+    transform: scale(0.28);
+    width: 30px;
+    height: 30px;
   }
 
   .hamburger {
@@ -750,7 +771,7 @@ textarea {
   .navbar-links2 {
     display: flex;
     margin-right: 6rem;
-    margin-top: -1rem;
+    margin-top: -2rem;
   }
 
   .navbar-links2 ul {
@@ -760,7 +781,7 @@ textarea {
 
   .navbar-links2 li a {
     margin-left: 1rem;
-    color: #344563;
+    color: #113152;
   }
 
   .navbar-links2 li a:hover {
