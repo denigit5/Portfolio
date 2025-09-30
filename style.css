@@ -20,21 +20,7 @@ body {
   margin-left: -0.5rem;
   margin-right: 0;
   overflow-x: hidden;
-  background: linear-gradient(
-      120deg,
-      rgba(255, 205, 247, 0.9),  /* Light Yellow */
-      rgba(173, 216, 230, 0.8),  /* Light Blue */
-      rgba(250, 248, 248, 0.7),  /* Light Coral */
-      rgba(22, 1, 22, 0.8)      /* Dark Base */
-    ),
-    radial-gradient(
-      circle at top left,
-      rgba(255, 182, 193, 0.6),  /* Light Pink */
-      rgba(224, 255, 255, 0.5),  /* Light Cyan */
-      rgba(245, 202, 226, 0.5)      /* Dark Base */
-    );
-  background-blend-mode: overlay, lighten;
-  background-color: #474747; /* Fallback color */
+  background: white;
   min-width: 60%;
   height: 700px;
   border-bottom-left-radius: 10%;
@@ -54,13 +40,13 @@ body {
   display: none;
 }
 
-.mylogo {
-  transform: scale(0.17);
-  width: 15px;
-  height: 15px;
-  margin-top: 1rem;
-  margin-bottom: -1rem;
-}
+/* .mylogo {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 10px;
+  border-radius: 50%;
+} */
 
 .hamburger {
   cursor: pointer;
